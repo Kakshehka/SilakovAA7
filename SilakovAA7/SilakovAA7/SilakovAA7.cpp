@@ -6,6 +6,10 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    char simv;
+    std::cout << "VVEDITE SYMVOL!\n";
+    std::cin >> simv;
+    std::cout << "VASH SIMVOL:" << simv;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
