@@ -9,7 +9,9 @@ int main()
     char simv;
     std::cout << "VVEDITE SYMVOL!\n";
     std::cin >> simv;
+
     std::cout << "VASH SIMVOL:" << simv;
+    return 1;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
